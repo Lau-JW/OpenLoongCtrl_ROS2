@@ -14,6 +14,8 @@ cd ..
 
 colcon build
 
+source install/setup.bash
+
 ros2 launch loong_control2 lonng_control2
 
 ## Follow-up
