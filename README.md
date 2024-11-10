@@ -25,6 +25,10 @@ ros2 launch loong_control2 lonng_control2
 
 (Coming soon!)
 
+3.Reinforcement Learning
+
+(Coming soon!)
+
 ## Acknowledgement
 
 1.https://atomgit.com/openloong
