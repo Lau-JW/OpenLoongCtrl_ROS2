@@ -9,7 +9,8 @@ python scripts/sim2sim.py --load_model /path/to/logs/XBot_ppo/exported/policies/
 
 
 
-##Thanks
+## Thanks
+
 1.https://atomgit.com/openloong
 
 2.https://atomgit.com/openloong/OpenLoongROS/tree/master/azureloong_control
