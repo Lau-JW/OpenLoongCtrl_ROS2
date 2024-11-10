@@ -18,8 +18,11 @@ ros2 launch loong_control2 lonng_control2
 
 ## follow-up
 1.Gazebo
+
 (Coming soon!)
+
 2.Path Planning
+
 (Coming soon!)
 
 ## Acknowledgement
