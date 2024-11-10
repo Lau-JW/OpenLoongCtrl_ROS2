@@ -16,7 +16,7 @@ colcon build
 
 ros2 launch loong_control2 lonng_control2
 
-## follow-up
+## Follow-up
 1.Gazebo
 
 (Coming soon!)
