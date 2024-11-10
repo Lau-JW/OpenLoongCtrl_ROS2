@@ -1,15 +1,28 @@
 # OpenLoongCtrl_ROS2
 OpenLoong humanoid robot for ROS2
 
-##Installation
-python scripts/train.py --task=humanoid_ppo --run_name v1 --headless --num_envs 4096
-python scripts/play.py --task=humanoid_ppo --run_name v1
-python scripts/sim2sim.py --load_model /path/to/logs/XBot_ppo/exported/policies/policy_1.pt
-python scripts/sim2sim.py --load_model /path/to/logs/XBot_ppo/exported/policies/policy_example.pt
+The OpenLoong open source project is jointly operated by Humanoid Robotics (Shanghai) Co., Ltd., Shanghai Humanoid Robotics Manufacturing Innovation Center, and OpenAtom Foundation. This warehouse is based on the MPC and WBC humanoid robot control framework, and has migrated from Acknowledgement 2 to ROS2 on the Mujoco simulation platform.
 
+## Installation
+mkdir -p xxx/src
 
+cd xxx/src
 
-## Thanks
+git clone https://github.com/Lau-JW/OpenLoongCtrl_ROS2.git
+
+cd ..
+
+colcon build
+
+ros2 launch loong_control2 lonng_control2
+
+## follow-up
+1.Gazebo
+(Coming soon!)
+2.Path Planning
+(Coming soon!)
+
+## Acknowledgement
 
 1.https://atomgit.com/openloong
 
